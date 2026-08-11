@@ -2109,6 +2109,7 @@ presubmits:
     branches:
     - ^oadp-1\.6$
     - ^oadp-1\.6-
+    cluster: build06
     context: ci/prow/ci-index
     decorate: true
     decoration_config:

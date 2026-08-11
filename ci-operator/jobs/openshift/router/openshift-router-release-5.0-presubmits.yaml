@@ -93,6 +93,7 @@ presubmits:
     branches:
     - ^release-5\.0$
     - ^release-5\.0-
+    cluster: build13
     context: ci/prow/e2e-agnostic-haproxy28
     decorate: true
     decoration_config:
@@ -268,6 +269,7 @@ presubmits:
     branches:
     - ^release-5\.0$
     - ^release-5\.0-
+    cluster: build07
     context: ci/prow/e2e-aws-fips-haproxy28
     decorate: true
     decoration_config:
@@ -533,6 +535,7 @@ presubmits:
     branches:
     - ^release-5\.0$
     - ^release-5\.0-
+    cluster: build07
     context: ci/prow/e2e-aws-serial-haproxy28-1of2
     decorate: true
     decoration_config:
@@ -621,6 +624,7 @@ presubmits:
     branches:
     - ^release-5\.0$
     - ^release-5\.0-
+    cluster: build07
     context: ci/prow/e2e-aws-serial-haproxy28-2of2
     decorate: true
     decoration_config:
@@ -1064,6 +1068,7 @@ presubmits:
     branches:
     - ^release-5\.0$
     - ^release-5\.0-
+    cluster: build07
     context: ci/prow/e2e-upgrade-haproxy28
     decorate: true
     decoration_config:
@@ -1473,6 +1478,7 @@ presubmits:
     branches:
     - ^release-5\.0$
     - ^release-5\.0-
+    cluster: build07
     context: ci/prow/perfscale-aws-ingress-perf-haproxy28
     decorate: true
     decoration_config:

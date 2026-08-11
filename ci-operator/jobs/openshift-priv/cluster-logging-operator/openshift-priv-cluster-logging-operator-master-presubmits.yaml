@@ -5,6 +5,7 @@ presubmits:
     branches:
     - ^master$
     - ^master-
+    cluster: build12
     context: ci/prow/ci-bundle-cluster-logging-operator-bundle
     decorate: true
     decoration_config:
